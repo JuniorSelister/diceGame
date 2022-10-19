@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="board">
+      <div id="board-one">
+        <h1>Gamer 1</h1>
+        <div id="dice1"></div>
+      </div>
+      
+      <div id="board-two" class="gamer2">  
+        <h1>Gamer 2</h1>
+        <div id="dice2"></div>
+      </div>
+    </div>
+    
+    
+    <div class="newElement">
+      <div class="score-lay">      
+        <h3 class="score-txt">And the winner is: </h3><h3 id="score"></h3>
+      </div>
+      <button class="clickme" id="click">Play!</button>
+      <button class="clickme" id="clean" disabled>Reset!</button>
+    </div>
+    
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>
